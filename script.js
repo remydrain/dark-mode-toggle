@@ -7,9 +7,9 @@ updateBody();
 
 function updateBody() {
     if(input.checked) {
-        body.style.background = 'black';
+        body.style.background = 'var(--black)';
     } else {
-        body.style.background = 'white';
+        body.style.background = 'var(--white)';
     }
 }
 
